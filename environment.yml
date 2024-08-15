@@ -1,0 +1,18 @@
+name: video-transcription
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - jupyter
+  - ffmpeg
+  - pip:
+      - openai
+      - pytube
+      - moviepy
+      - pydub
+      - librosa
+      - soundfile
+      - yt-dlp
+      - python-dotenv
